@@ -1,0 +1,17 @@
+Id: MKVToolNix.MKVToolNix
+Version: 51.0.0
+Name: MKVToolNix
+Publisher: MKVToolNix
+License: GPL v2
+AppMoniker: MKVToolNix
+Tags: mkvmerge, mkv
+Description: MKVToolNix is a set of tools to create, alter, and inspect Matroska (.mkv) files
+Homepage: https://mkvtoolnix.download/
+Installers:
+  - Arch: x64
+    Url: https://mkvtoolnix.download/windows/releases/52.0.0/mkvtoolnix-64-bit-52.0.0-setup.exe
+    Sha256: 59FADAEACA8C0D631B1C176D5A7336C48BE9707444E6A8C006BD32969F9B4FED
+    InstallerType: nullsoft
+    Switches:
+      Silent: /S
+      SilentWithProgress: /S
